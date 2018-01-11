@@ -1,16 +1,63 @@
-theme: jekyll-theme-architect
+﻿# Site settings
+title: 丁嘉莹的博客 # 你的博客名字，可以定义修订
+header-img: "img/twitter.jpg"
+tagline: "cn"  
+description: "这是我的博客"  # 一句话描述你的博客
+baseurl: ""
+url: "http://dingjiaying.github.io"  # 此处填写你的博客地址 
 
-title: ����Ө�Ĳ���
+# About/contact
+owner: 
+  name: "丁嘉莹" # 填写作者信息：名字
+  email: 18305186709@163.com # 填写作者信息：邮箱
+  bio: "你的博客描述" # 填写作者信息：博客描述
 
-description: �����Ͳ�������ǧ��
-author:����Ө
-mail: 18305186709@163.com
+# Data
+gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+favicon: img/1.jpg # 浏览器地址栏小图标，可自定义更改
 
-github: DingJiaYing
-config:
-  
-js_dir:
-  
-img_dir:
-  
-css_dir:
+douban_username:  # 你的豆瓣id
+twitter_username: 
+github_username:DingJiaYing 
+facebook_username: 
+weibo_username:丁嘉莹sunny 
+zhihu_username:丁嘉莹 
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "丁嘉莹" # 你的名字
+      header-img: "img/twitter.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+comments :
+  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
+  duoshuo :
+    short_name :  # 填写你的 disqus id
+  disqus :
+      short_name :  # 填写你的 disqus id
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:  # 填写你  google_analytics id
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
