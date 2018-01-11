@@ -2,26 +2,26 @@
 title: 丁嘉莹的博客 # 你的博客名字，可以定义修订
 header-img: "img/twitter.jpg"
 tagline: "cn"  
-description: "这是我的博客"  # 一句话描述你的博客
+description: "不积跬步无以至千里"  # 一句话描述你的博客
 baseurl: ""
 url: "http://dingjiaying.github.io"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
   name: "丁嘉莹" # 填写作者信息：名字
-  email: 18305186709@163.com # 填写作者信息：邮箱
-  bio: "你的博客描述" # 填写作者信息：博客描述
+  email: "18305186709@163.com" # 填写作者信息：邮箱
+  bio: "记录学习的点滴" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+gavatar: img/1.jpg # 浏览器地址栏小图标，可自定义更改
 favicon: img/1.jpg # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
-github_username:DingJiaYing 
+github_username: "DingJiaYing" 
 facebook_username: 
-weibo_username:丁嘉莹sunny 
-zhihu_username:丁嘉莹 
+weibo_username:
+zhihu_username:
 
 # Build settings  
 # use Github Flavored Markdown !important  

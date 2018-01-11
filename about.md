@@ -1,7 +1,7 @@
 ﻿---
 layout: page
 title: "About"
-description: "你的博客描述 " 
+description: "不是胖丁的小屋" 
 header-img: "img/twitter.jpg"
 ---
 
